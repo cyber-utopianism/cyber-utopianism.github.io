@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+    <!-- <script src="https://cdn.tailwindcss.com" type="module"></script> -->
+  </head>
+  <body>
+    <div id="root"></div>
+    <video
+      id="video"
+      style="display: none"
+      crossorigin="anonymous"
+      type="video/mp4"
+      src="/assets/ioanna.mp4"
+      controls="false"
+      loop
+      autoplay="true"
+      muted
+    ></video>
+    <script type="module" src="/src/main.jsx"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r79/three.min.js"></script>
+<script src="https://threejs.org/examples/js/controls/OrbitControls.js"></script>
+  </body>
+</html>

@@ -1,0 +1,15 @@
+#https://stackoverflow.com/questions/58065603/netlify-renders-404-on-page-refresh-using-react-and-react-router 
+[[redirects]]
+  from = "/"
+  to = "/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/gallery"
+  to = "/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/assets/*"
+  to = "/index.html"
+  status = 200
